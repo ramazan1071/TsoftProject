@@ -1,0 +1,31 @@
+.container{
+    max-width: $max-width;
+    padding: 0 1.4rem;
+    margin: auto;
+}
+
+//buttons
+%btn-shared{
+    display: inline-block;
+    padding: .7rem 2rem;
+    transition: all .5s;
+    border: none;
+    cursor: pointer;
+}
+.btn{
+    &-dark{
+        @extend %btn-shared;
+        background-color:$dark-color;
+        color: $light-color;
+    }
+    &-light{
+        @extend %btn-shared;
+        background-color:$light-color;
+        color: $dark-color;
+    }
+}
+button[class^='btn-']:hover,
+a[class^='btn-']:hover,
+input[class^='btn-']:hover{
+background-color: $dark-color;
+}
