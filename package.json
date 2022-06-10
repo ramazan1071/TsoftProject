@@ -1,0 +1,23 @@
+{
+  "name": "tsoftproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass -w scss -o public/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramazan1071/TsoftProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramazan1071/TsoftProject/issues"
+  },
+  "homepage": "https://github.com/ramazan1071/TsoftProject#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
