@@ -3,30 +3,37 @@
 .main-nav{
     display: flex;
     justify-content: space-between;
-    padding-top: 1rem;
+    align-items: center;
+    padding-top: 5rem;
     &__logo{
         width: 140px;
         height: 40px;
     }
     &__items{
         display: flex;
-
-
+        justify-content: space-between;
         li{
-            padding: 1rem 1.5rem;
+           
 
             a{
                 text-decoration: none;
-                color: #333;
-                text-transform: uppercase;
-                border-bottom: 3px transparent solid;
-                padding-bottom: .5rem;
-                transition: border-color .5s;
+                color: gray;
+                padding: 1rem 1.5rem;
+                border: 2px solid #FFFFFF;
+                -moz-border-radius: 30px;   
+                -webkit-border-radius: 30px;
+                border-radius: 30px;
+                transition: all .5s;
+                font-weight: bold;
                 &:hover{
-                    border-color: yellow;
+                    background-color: #F1F1FD;
+                    color: #333;
+                  
+                    
                 }
                 &:active{
-                    border-color: red;
+                    background-color: gray;
+                    color: #333;
                 }
             }
 
@@ -34,24 +41,36 @@
     }
     &__buttons{
         display: flex;
+        &__dark{
+                background-color: #202142;
+                color: #FFFFFF;
+                transition: all 1s;
+                &:hover{
+                    background-color: #FFFFFF;
+                    color: #202142;
+                }
+               
+            }
+            &__light{
+                background-color: #FFFFFF;
+                border: 2px solid #FFFFFF;
+                color: #202142;  
+            }
 
         li{
-            padding: 1rem 1.5rem;
 
             a{
+                padding: 1rem 1.5rem;
                 text-decoration: none;
-                color: #333;
-                text-transform: uppercase;
-                border-bottom: 3px transparent solid;
-                padding-bottom: .5rem;
-                transition: border-color .5s;
-                &:hover{
-                    border-color: yellow;
-                }
-                &:active{
-                    border-color: red;
-                }
+                padding: 1rem 1.5rem;
+                -moz-border-radius: 10px;
+                -webkit-border-radius: 10px;
+                border-radius: 10px;
+            
+              
             }
+
+            
         }
     }
 }
