@@ -1,3 +1,5 @@
+/*Normalize.css*/
+@import 'https://necolas.github.io/normalize.css/8.0.1/normalize.css';
 .container {
   max-width: 1200px;
   padding: 0 1.4rem;
@@ -22,11 +24,6 @@ button[class^='btn-']:hover,
 a[class^='btn-']:hover,
 input[class^='btn-']:hover {
   background-color: #333; }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
 
 body {
   background-color: #fff;
