@@ -200,3 +200,25 @@ img {
       border: 1px solid #EFEFFF;
       padding-left: .7rem;
       padding-right: .7rem; }
+
+.section3 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border-color: none;
+  display: flex;
+  justify-content: space-between; }
+  .section3__img1 {
+    width: 38px;
+    height: 38px; }
+  .section3__img2 {
+    width: 26px;
+    height: 26px;
+    margin-left: .5rem; }
+  .section3__text {
+    margin-right: 7rem; }
+
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: .1rem;
+  line-height: 2.5rem; }
